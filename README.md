@@ -1,4 +1,10 @@
-# PlanDoc · Administrative Document AI Agent
+<p align="center">
+  <img src="assets/banner.svg" alt="plandoc-agent" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-%EC%9C%A0%EB%A3%8C%20%EC%9A%B4%EC%98%81%20%EC%A4%91-E8622A?style=flat-square" alt="status"/> <img src="https://img.shields.io/badge/%EC%9B%94%20API%20%ED%98%B8%EC%B6%9C-30%2C000%2B-C4460F?style=flat-square" alt="월 API 호출"/> <img src="https://img.shields.io/badge/Next.js-16-1F1A17?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/Supabase-RLS-D4561C?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/> <img src="https://img.shields.io/badge/output-HWPX-B23E0D?style=flat-square" alt="output"/>
+</p>
 
 > An AI agent that fills Korean administrative and statutory forms by each company's rules, and exports a submission-ready HWPX file. Started as a grant-proposal writer, pivoted to administrative documents, now in paid production.
 >
@@ -35,6 +41,7 @@
 ## 3. 아키텍처
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFF4EC','primaryBorderColor':'#E8622A','primaryTextColor':'#1F1A17','lineColor':'#E8622A','secondaryColor':'#FDE3D3','tertiaryColor':'#FFF9F5','clusterBkg':'#FFF9F5','clusterBorder':'#F0B79A','fontFamily':'Pretendard, sans-serif'}}}%%
 flowchart LR
   W[웹 클라이언트<br/>서식 선택 · 참고 서류] -->|작업 등록| Q[(작업 큐)]
   Q --> A[에이전트 상태머신<br/>단계 승인형]
@@ -62,4 +69,4 @@ flowchart LR
 
 ---
 
-<sub>Woojin Nam · <a href="https://github.com/TreeJin99">@TreeJin99</a> · <a href="https://jigeum.info">jigeum.info</a></sub>
+<p align="center"><sub><a href="https://github.com/TreeJin99">← 남우진 프로필</a> · <a href="https://jigeum.info">jigeum.info</a></sub></p>
